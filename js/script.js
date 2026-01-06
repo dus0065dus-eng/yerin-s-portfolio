@@ -7,16 +7,16 @@ $(function () {
     $("html,body").animate({ scrollTop: $(this.hash).offset().top }, 500);
   });
 
+  $("#m1 > .inner > a").click(function () {
+    $("html,body").animate({ scrollTop: $(this.hash).offset().top }, 500);
+  });
+
   $(".mgnb > li > a").click(function () {
     $("html,body").animate({ scrollTop: $(this.hash).offset().top }, 500);
     $(".mgnb_wrap").animate({
       right: "-100%"
     });
     $(".dim").fadeOut();
-  });
-
-  $("#m1 > .inner > a").click(function () {
-    $("html,body").animate({ scrollTop: $(this.hash).offset().top }, 500);
   });
 
   // 하단 링크
@@ -50,6 +50,7 @@ $(function () {
   });
 
 });
+
 
 
 

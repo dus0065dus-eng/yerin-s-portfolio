@@ -40,9 +40,11 @@ body { /*background: url("../img/body_bg.png");*/ background: #fff6eb; font-fami
   .section h2 + p { font-size: 1.6rem; }
 }
 
-.visual { position: relative; text-align: center; }
-.visual img { width: 100%; display: block; }
-.visual h2 { position: absolute; left: 0; bottom: -60px; width: 100%; text-transform: uppercase; font-size: 12rem; color: #3d3c37; }
+.visual { text-align: center;  position: relative;  }
+.visual img { width: 100%;  display: block; margin: 0 auto; }
+/*.visual h2 { position: absolute; left: 0; bottom: -60px; width: 100%; text-transform: uppercase; font-size: 12rem; color: #3d3c37; }*/
+/* .visual h2::before { display: block; content: ""; position: absolute; right: 20%; bottom: 0; background: rgb(255, 84, 198, 0.5); width: 500px; height: 50px;  } */
+.visual a { display: block; position: absolute; left: 23%; bottom: 27%; background-color: #ffffff;  width: 23%; height: 10%; opacity: 0; }
 
 @media (max-width:1400px) {
   .visual h2 { font-size: 10rem; }
@@ -149,3 +151,4 @@ body { /*background: url("../img/body_bg.png");*/ background: #fff6eb; font-fami
   #footer h2 { font-size: 3rem; }
   #footer ul { font-size: 1.4rem; }
 }
+

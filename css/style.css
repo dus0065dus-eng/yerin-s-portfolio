@@ -41,6 +41,7 @@ body { /*background: url("../img/body_bg.png");*/ background: #fff6eb; font-fami
 }
 
 .visual { text-align: center;  position: relative;  }
+.visual .inner { max-width: 1640px; padding: 0 ; margin: 0 auto; }
 .visual img { width: 100%;  display: block; margin: 0 auto; }
 /*.visual h2 { position: absolute; left: 0; bottom: -60px; width: 100%; text-transform: uppercase; font-size: 12rem; color: #3d3c37; }*/
 /* .visual h2::before { display: block; content: ""; position: absolute; right: 20%; bottom: 0; background: rgb(255, 84, 198, 0.5); width: 500px; height: 50px;  } */
@@ -151,4 +152,5 @@ body { /*background: url("../img/body_bg.png");*/ background: #fff6eb; font-fami
   #footer h2 { font-size: 3rem; }
   #footer ul { font-size: 1.4rem; }
 }
+
 

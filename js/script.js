@@ -15,6 +15,10 @@ $(function () {
     $(".dim").fadeOut();
   });
 
+  $("#m1 > .inner > a").click(function () {
+    $("html,body").animate({ scrollTop: $(this.hash).offset().top }, 500);
+  });
+
   // 하단 링크
   $("#footer ul > li > a").click(function () {
     $("html,body").animate({ scrollTop: $(this.hash).offset().top }, 500);
@@ -46,5 +50,6 @@ $(function () {
   });
 
 });
+
 
 
